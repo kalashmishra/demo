@@ -46,7 +46,7 @@ const routes = [
   "/get-registered/marketplace",
   "/business-loan/get-registered",
   "/sitemap.xml",
-  "/service-worker.js",
+  // "/service-worker.js",
   "/robots.txt",
 
   "/business-loan/",
@@ -78,7 +78,7 @@ const routes = [
   "/business-loan/get-registered/",
   "/sitemap.xml/",
   "/robots.txt/",
-  "/service-worker.js/",
+  // "/service-worker.js/",
   "/not-found",
 ];
 
@@ -272,12 +272,12 @@ app.get("*", async (req, res, next) => {
     const robotsContent = fs.readFileSync(robotsPath, "utf-8");
     res.setHeader("Content-Type", "text/plain");
     return res.send(robotsContent);
-  }
-    else if (activeRoute === "/service-worker.js") {
-      const servicePath = path.resolve(__dirname, "./service-worker.js");
-      const serviceContent = fs.readFileSync(servicePath, "utf-8");
-      res.setHeader("Content-Type", "application/javascript");
-      return res.send(serviceContent);
+  // }
+  //   else if (activeRoute === "/service-worker.js") {
+  //     const servicePath = path.resolve(__dirname, "./service-worker.js");
+  //     const serviceContent = fs.readFileSync(servicePath, "utf-8");
+  //     res.setHeader("Content-Type", "application/javascript");
+  //     return res.send(serviceContent);
    
   } else if (activeRoute) {
     const app = ReactDOMServer.renderToString(

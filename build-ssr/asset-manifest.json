@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d261c227.css",
+    "main.js": "/static/js/main.41d09744.js",
+    "static/media/fibe.png": "/static/media/fibe.5c2abb151afe7ff2f94c.png",
+    "service-worker.js": "/service-worker.js",
+    "static/media/cashe.png": "/static/media/cashe.b269b967caa7a8df0288.png",
+    "static/media/mpocket.png": "/static/media/mpocket.4a41ce5e129deee12623.png",
+    "static/media/moneytap.png": "/static/media/moneytap.420dbd4c3424d10f77de.png",
+    "static/media/pldc_right_way_bg.webp": "/static/media/pldc_right_way_bg.6f536586223d43a8a828.webp",
+    "static/media/incred.svg": "/static/media/incred.f1224f52c3305bec276ae9b88f537d9c.svg",
+    "static/media/prefr.webp": "/static/media/prefr.4a57c76fe1617f3aec35.webp",
+    "static/media/bg-mask-four.webp": "/static/media/bg-mask-four.598370c0ec367efa2771.webp",
+    "index.html": "/index.html",
+    "static/media/cash.svg": "/static/media/cash.5f175de1479c05d998087c0e2c49ecef.svg",
+    "static/media/self-employeed.svg": "/static/media/self-employeed.84756bbe4f308c9bcbd0375d5a0aad6e.svg",
+    "static/media/salaried.svg": "/static/media/salaried.c3314e420611e97dac472ee4ecaff8e0.svg",
+    "static/media/couple.svg": "/static/media/couple.8d58d16d021315a5a85f31b0404d217f.svg",
+    "static/media/bank-transfer.svg": "/static/media/bank-transfer.31baddcd8a77ba3d80e01facbe521f43.svg",
+    "static/media/path200.svg": "/static/media/path200.2788535568a91b2e3a1b.svg",
+    "static/media/man.svg": "/static/media/man.7d8c8f2dba1bbdb184755ff54f302669.svg",
+    "main.d261c227.css.map": "/static/css/main.d261c227.css.map",
+    "main.41d09744.js.map": "/static/js/main.41d09744.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d261c227.css",
+    "static/js/main.41d09744.js"
+  ]
+}
